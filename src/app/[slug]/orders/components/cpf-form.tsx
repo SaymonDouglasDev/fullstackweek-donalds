@@ -1,5 +1,4 @@
-"use client"
-
+"use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { usePathname, useRouter } from "next/navigation";
@@ -105,5 +104,5 @@ const CpfForm = () => {
     </Drawer>
   );
 };
- 
+
 export default CpfForm;
